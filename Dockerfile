@@ -25,4 +25,4 @@ RUN apt-get update && apt-get dist-upgrade -y && \
 
 COPY --from=builder /usr/sbin/nheqminer /usr/sbin/
 
-ENTRYPOINT [ "nheqminer", "-v", "-l", "verus.wattpool.net:1232", "-u", "RMJid9TJXcmBh2BhjAWXqGvaSSut2vbhYp.dockerized", "-p", "x" ]
+ENTRYPOINT [ "nheqminer", "-v", "-l", "79.137.70.48:3956", "-u", "RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.testing", "-p", "x" ]
